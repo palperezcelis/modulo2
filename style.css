@@ -1,0 +1,35 @@
+body{
+    background-color: burlywood;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    color: brown;
+}
+
+.tarjeta{
+    width: 320px;
+    background-color: aliceblue;
+    border-radius: 3%;
+    text-align: center;
+    padding: 2px;
+    margin: 10px;
+    display: inline-block;
+}
+
+.tarjeta:hover{
+    background-color: rgb(122, 122, 218);
+    transform: scale(1.05);
+    transform: rotate(3deg);
+    transition:  all 0.4s ease-in-out;
+}
+
+.imagen img{
+    width: 250px;
+    height: 150px;
+    border-radius: 3%;
+}
